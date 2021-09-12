@@ -36,7 +36,7 @@
           "config": {
             "name": "updater_bdo_app",
             "authors": "Brian",
-            "description": "Actualizador remoto"
+            "description": "Descargador remoto"
           }
         },
         {
