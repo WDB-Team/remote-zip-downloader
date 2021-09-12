@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+body {
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(../img/update.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+header {
+    width: 100%;
+    height: 60px;
+    display: flex;
+}
+
+header nav {
+    display: flex;
+    justify-content: flex-start;
+    width: 70%;
+}
+
+header .preferences {
+    width: 30%;
+    height: auto;
+    justify-content: flex-end;
+    display: flex;
+    align-items: center;
+    margin-right: 5px;
+}
+
+header div .preferences-icon {
+    background-image: url(../img/Settings_96px.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 40px;
+    height: 40px;
+}
+/*
+header nav .nav-seccion .ts-icon {
+    background-image: url(../img/ts.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 25px;
+    height: 25px;
+}
+*/
+
+
+header nav .nav-seccion{
+    width: 250px;
+    height: auto;
+    margin-left: 10px;
+    display: flex;
+    list-style: none;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+nav .nav-seccion a {
+    margin-right: 10px;
+    color: #ffffff;
+}
+
+.container {
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container section {
+    height: 350px;
+    width: 80%;
+}
+
+.info {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.container .download {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.container .download .progress-bar-info {
+    position: absolute;
+    margin-top: 16px;
+    margin-inline: 10px;
+}
+
+
+.container .download progress{
+    width: 80%;
+    height: 50px;
+}
+
+.container .download .download-logo {
+    margin-top: 10px;
+    margin-left: 5px;
+    background-image: url(../img/Download1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 25px;
+    height: 25px;
+}

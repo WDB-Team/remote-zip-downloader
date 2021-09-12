@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+ 
+ 
+<head>
+    <meta charset="UTF-8">
+    <title>BDO Updater</title>
+    <!-- https://electronjs.org/docs/tutorial/security#csp-meta-tag -->
+    <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-inline';" />
+    <script src="js/fronted.js" type="text/javascript" charset="utf-8"></script>
+    <link rel="stylesheet" href="assets/css/main-window-styles.css">
+</head>
+ 
+<body>
+    <header>
+        <nav>
+            <ul class="nav-seccion">
+                <li>
+                    <a id="link-foro" class="http://10.98.128.2/evo.remastered/index.php" href="#">Blog</a>
+                </li>
+                <li>
+                    <a id="link-web" class="http://10.98.128.10/blackdesert1/" href="#">Web BDO</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="preferences">
+            <a class="preferences-icon" id="open-preferences" href="#"></a>
+        </div>
+    </header>
+
+    <div class="container">
+        <section class="info">
+            <img src="./assets/img/logo.png" alt="" height="130" width="240">
+        </section>
+        <div class="download">
+            <progress id="download-progress-bar" max="100" value="0"></progress>
+            <p class="progress-bar-info" id="progress-bar-info">0%</p>
+            <a id="download" class="download-logo" href="#"> </a>
+        </div>
+    </div>
+    
+
+    
+</body>
+ 
+</html>
+
