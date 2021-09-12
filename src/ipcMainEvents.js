@@ -108,7 +108,7 @@ function downloadFile() {
             try {
                 //Starting the dowload
                 const response = await axios({
-                    url: 'http://10.96.66.50/updateBDO.zip', //your url bdologo.png tiket-master.zip blob  http://10.98.128.2/BDO.zip
+                    url: 'http://10.96.66.50/updateBDO.zip', //your url bdologo.png 
                     method: 'GET',
                     responseType: 'stream', // important
                 });
@@ -212,7 +212,6 @@ function createTempApliactionDir() {
     fs.mkdtemp(path.join(tmpDir, `bdo-${date.getMonth()}-${date.getDate()}-${date.getFullYear()}-`), (err, directory) => {
         if (err) throw err;
         console.log(directory);
-        // Prints: /tmp/foo-itXde2 or C:\Users\...\AppData\Local\Temp\foo-itXde2
       });
 }
 
